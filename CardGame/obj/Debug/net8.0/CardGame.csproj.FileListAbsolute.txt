@@ -1,0 +1,14 @@
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\bin\Debug\net8.0\CardGame.exe
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\bin\Debug\net8.0\CardGame.deps.json
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\bin\Debug\net8.0\CardGame.runtimeconfig.json
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\bin\Debug\net8.0\CardGame.dll
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\bin\Debug\net8.0\CardGame.pdb
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\obj\Debug\net8.0\CardGame.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\obj\Debug\net8.0\CardGame.AssemblyInfoInputs.cache
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\obj\Debug\net8.0\CardGame.AssemblyInfo.cs
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\obj\Debug\net8.0\CardGame.csproj.CoreCompileInputs.cache
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\obj\Debug\net8.0\CardGame.dll
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\obj\Debug\net8.0\refint\CardGame.dll
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\obj\Debug\net8.0\CardGame.pdb
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\obj\Debug\net8.0\CardGame.genruntimeconfig.cache
+c:\Users\Aya AL_Awesat\Documents\Assignments\CardGame\obj\Debug\net8.0\ref\CardGame.dll
