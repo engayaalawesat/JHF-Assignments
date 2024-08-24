@@ -22,78 +22,65 @@ header {
     background: #fea685;
     padding: 20px;
     margin: 15px; /* Set consistent margin */
-    text-align: right; /* Align items to the right */
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
 }
 
 .horizontal-nav ul {
     padding: 0;
     margin: 0;
+    list-style: none; /* Remove default list styling */
+    display: flex;
 }
 
 .horizontal-nav li {
-    display: inline-block; /* Display items horizontally */
     width: 205px; /* Set width of the rectangles */
     height: 30px; /* Set height of the rectangles */
     background: #fff; /* Background color of rectangles */
     margin-right: 10px; /* Space between items */
 }
 
-
-
 /* Layout for the section */
 .container {
+    display: flex;
     overflow: hidden; /* Clear floats */
+    margin: 15px; /* Set consistent margin */
+    gap: 15px; /* Space between left-side and right-side */
 }
 
 .left-side {
-    float: left;
-    width: 850px; /* Adjust width as needed */
+    flex: 0 0 850px; /* Fixed width */
     height: 30%;
     padding: 20px;
-    margin: 15px;
-    margin-right: 0px; 
-    margin-top: 0px; 
     background-color: #34c9ff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between sections */
     padding-top: 80px;
-
 }
 
 .left-side .section1 {
     height: 80px; /* Set the height of sections to be equal */
-}
-
-.section1 {
     background: #a2e1fd; /* Background color of sections */
     border: 1px solid #a2e1fd; 
-    margin: 10px; /* Space between sections */
 }
 
 .right-side {
-    float: right;
-    width: 453.70px; 
+    flex: 0 0 453.70px; /* Fixed width */
     height: 60%;
     background-color: #d9d9d9;
-    margin: 15px; 
-    margin-top: 0px; 
-    margin-left: 0px; 
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     padding-top: 80px;
-
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between sections */
 }
 
-/* Ensure the sections in the right-side have equal height */
 .right-side .section2 {
     height: 80px; /* Set the height of sections to be equal */
-}
-
-.section2 {
     background: #e9e8e8; /* Background color of sections */
     border: 1px solid #e9e8e8; 
-    margin: 10px; /* Space between sections */
 }
-
 
 /* Style the footer */
 footer {
@@ -104,6 +91,5 @@ footer {
     color: white;
     border: solid 1px #fea685;
     margin: 15px; 
-    margin-top:0px; 
-
+    margin-top: 0; /* Remove top margin */
 }
