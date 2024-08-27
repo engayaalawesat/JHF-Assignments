@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Implement Stack using Arrays (C#)")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00f8228a0c23dc94f197b5d97ea5c73102816cb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Implement Stack using Arrays (C#)")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Implement Stack using Arrays (C#)")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

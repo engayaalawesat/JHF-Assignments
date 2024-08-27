@@ -1,6 +1,4 @@
-﻿using System;
-
-public class Stack
+﻿public class Stack
 {
     private int[] elements;
     private int top;
@@ -25,7 +23,7 @@ public class Stack
         else
         {
             elements[++top] = item;
-            Console.WriteLine($"\nPushed {item} onto the stack.\n");
+            Console.WriteLine($"\nPushed {item} into the stack.\n");
         }
     }
 
@@ -80,21 +78,22 @@ public class Stack
                 Console.Write(elements[i]);
                 if (i > 0)
                 {
-                    Console.Write(", ");
                 }
-            }
+                  Console.Write(", ");
+              }
             Console.WriteLine(); // Move to the next line after printing all elements
         }
     }
 
     // Main method to test the stack implementation
-    public static void Main(string[] args)
+    public static void Main()
     {
         Stack stack = new Stack(5);
 
+        stack.Push(5);
         stack.Push(10);
+        stack.Push(15);
         stack.Push(20);
-        stack.Push(30);
 
         Console.WriteLine($"> > > Top element is: {stack.Peek()}\n");
 
@@ -105,6 +104,5 @@ public class Stack
 
         Console.WriteLine($"\n> > > Is stack empty?! {stack.IsEmpty()}\n");
 
-        stack.Pop(); // Will show underflow as stack is empty now
     }
 }

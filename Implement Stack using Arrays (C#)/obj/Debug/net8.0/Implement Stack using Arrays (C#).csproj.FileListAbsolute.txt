@@ -12,3 +12,18 @@ C:\Users\Aya AL_Awesat\Documents\Assignments\Implement Stack using Arrays (C#)\o
 C:\Users\Aya AL_Awesat\Documents\Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\Implement Stack using Arrays (C#).pdb
 C:\Users\Aya AL_Awesat\Documents\Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\Implement Stack using Arrays (C#).genruntimeconfig.cache
 C:\Users\Aya AL_Awesat\Documents\Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\ref\Implement Stack using Arrays (C#).dll
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\bin\Debug\net8.0\Implement Stack using Arrays (C#).exe
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\bin\Debug\net8.0\Implement Stack using Arrays (C#).deps.json
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\bin\Debug\net8.0\Implement Stack using Arrays (C#).runtimeconfig.json
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\bin\Debug\net8.0\Implement Stack using Arrays (C#).dll
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\bin\Debug\net8.0\Implement Stack using Arrays (C#).pdb
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\Implement Stack using Arrays (C#).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\Implement Stack using Arrays (C#).AssemblyInfoInputs.cache
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\Implement Stack using Arrays (C#).AssemblyInfo.cs
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\Implement Stack using Arrays (C#).csproj.CoreCompileInputs.cache
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\Implement Stack using Arrays (C#).sourcelink.json
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\Implement Stack using Arrays (C#).dll
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\refint\Implement Stack using Arrays (C#).dll
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\Implement Stack using Arrays (C#).pdb
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\Implement Stack using Arrays (C#).genruntimeconfig.cache
+C:\Users\Aya AL_Awesat\Desktop\Git Upload\JHF Assignments\JHF-Assignments\Implement Stack using Arrays (C#)\obj\Debug\net8.0\ref\Implement Stack using Arrays (C#).dll

@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; /* Ensure no default margin on body */
+    padding: 0; /* Ensure no default padding on body */
+}
+
+/* Style the header */
+header {
+    background-color: #fea685;
+    padding: 20px;
+    font-size: 35px;
+    color: white;
+    border: solid 1px #fea685;
+    margin: 15px; /* Set consistent margin */
+}
+
+/* Style the horizontal nav menu */
+.horizontal-nav {
+    background: #fea685;
+    padding: 20px;
+    margin: 15px; /* Set consistent margin */
+    display: grid;
+    justify-content: end; /* Align items to the right */
+}
+
+.horizontal-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Remove default list styling */
+    display: grid;
+    grid-auto-flow: column; /* Arrange items in a row */
+    gap: 10px; /* Space between items */
+}
+
+.horizontal-nav li {
+    width: 220px; /* Set width of the rectangles */
+    height: 30px; /* Set height of the rectangles */
+    background: #fff; /* Background color of rectangles */
+}
+
+/* Layout for the section */
+.container {
+    display: grid;
+    grid-template-columns: 850px minmax(453.70px, 1fr); 
+    gap: 15px; /* Space between columns */
+    margin: 15px; /* Set consistent margin */
+}
+
+/* Styling for left-side content */
+.left-side {
+    background-color: #34c9ff;
+    display: grid;
+    grid-template-rows: repeat(3, 80px); /* Three rows of equal height */
+    gap: 10px; /* Space between rows */
+    padding: 20px; /* Internal padding */
+}
+
+/* Styling for individual sections within left-side */
+.left-side .section1 {
+    background: #a2e1fd; /* Background color of sections */
+    border: 1px solid #a2e1fd; 
+}
+
+/* Styling for right-side content */
+.right-side {
+    background-color: #d9d9d9;
+    display: grid;
+    grid-template-rows: repeat(2, 80px); /* Two rows of equal height */
+    gap: 10px; /* Space between rows */
+    padding: 20px; /* Internal padding */
+}
+
+/* Styling for individual sections within right-side */
+.right-side .section2 {
+    background: #e9e8e8; /* Background color of sections */
+    border: 1px solid #e9e8e8; 
+}
+
+/* Style the footer */
+footer {
+    background-color: #fea685;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    border: solid 1px #fea685;
+    margin: 15px; 
+    margin-top: 0; /* Remove top margin */
+}
