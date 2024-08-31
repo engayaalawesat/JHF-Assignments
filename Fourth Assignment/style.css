@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Optional: set a max-width for better control */
+    padding: 20px; /* Equal padding to match the gap between boxes */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between rows */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Space between boxes */
+}
+
+.box {
+    background-color: #ffb6c1;
+}
+
+/* Heights and widths for each box */
+.row-1 .left {
+    height: 250px; /* Taller height for the left box */
+    width: 60%; /* Specific width for the left box */
+}
+
+.row-1 .right {
+    height: 150px; /* Shorter height for the right box */
+    width: 30%; /* Specific width for the right box */
+}
+
+.row-2 .box {
+    height: 150px; /* Medium height for both boxes */
+    width: 45%; /* Same width for both boxes in this row */
+}
+
+.row-3 .left {
+    height: 150px; /* Taller height for the left box */
+    width: 60%; /* Specific width for the left box */
+}
+
+.row-3 .right {
+    height: 150px; /* Shorter height for the right box */
+    width: 30%; /* Specific width for the right box */
+}
+
+.row-4 .box {
+    height: 150px; /* Medium height for both boxes */
+    width: 45%; /* Same width for both boxes in this row */
+}
