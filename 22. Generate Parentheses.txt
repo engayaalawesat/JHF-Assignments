@@ -1,0 +1,25 @@
+public class Solution
+{
+    public IList<string> GenerateParenthesis(int n)
+    {
+        var result = new List<string>();
+
+        void GenerateParenthesisHelper(string current, int open, int close)
+        {
+            if (current.Length == n * 2)
+            {
+                result.Add(current);
+                return;
+            }
+
+            if (open < n)
+                GenerateParenthesisHelper(current + "(", open + 1, close);
+            
+            if (close < open)
+                GenerateParenthesisHelper(current + ")", open, close + 1);
+        }
+
+        GenerateParenthesisHelper("", 0, 0);
+        return result;
+    }
+}
