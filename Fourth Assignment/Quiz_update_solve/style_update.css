@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    
+}
+
+.container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px; /* أضف هذه الخاصية */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box {
+    background-color: #ffb6c1;
+    flex: 1;
+    height: 150px;
+}
+
+/* Widths for each box */
+.row-1 .left {
+    flex-basis: 60%;
+}
+
+.row-1 .right {
+    flex-basis: 10%;
+}
+
+.row-2 .left {
+    flex-basis: 35%;
+}
+
+.row-2 .right {
+    flex-basis: 45%;
+}
+
+.row-3 .left {
+    flex-basis: 70%;
+}
+
+.row-3 .right {
+    flex-basis: 5%;
+}
+
+.row-4 .box {
+    flex-basis: 45%;
+}
