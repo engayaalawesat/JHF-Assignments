@@ -1,0 +1,36 @@
+public class Solution {
+         public int FindSecondMinimumValue(TreeNode root) {
+        if (root == null) {
+            return -1;  // If the tree is empty
+        }
+
+        // The smallest value is the root's value
+        int firstMin = root.val;
+        int secondMin = int.MaxValue;
+
+        // Using a queue for tree traversal (BFS)
+        Queue<TreeNode> queue = new Queue<TreeNode>();
+        queue.Enqueue(root);
+
+        // BFS traversal using a queue
+        while (queue.Count > 0) {
+            TreeNode node = queue.Dequeue();
+
+            // If the node's value is greater than firstMin and less than secondMin, update secondMin
+            if (node.val > firstMin && node.val < secondMin) {
+                secondMin = node.val;
+            }
+
+            // Add the children to the queue if they exist
+            if (node.left != null) {
+                queue.Enqueue(node.left);
+            }
+            if (node.right != null) {
+                queue.Enqueue(node.right);
+            }
+        }
+
+        // If secondMin was not updated, return -1
+        return secondMin == int.MaxValue ? -1 : secondMin;
+    }
+}
