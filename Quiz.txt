@@ -1,0 +1,22 @@
+console.log(ironMan.suit); // Mark L V
+**********
+console.log(thor.power); //  Thunder
+**********
+blackWidow.showName(); //  Natasha Romanoff
+captainMarvel.showName(); //  Carol Danvers
+**********
+hulk.transform().punch(); 
+// Bruce Banner transforms into Hulk!
+// Hulk smash!
+**********
+boundDescribe('Tech Genius', 'Repulsor Ray'); // Tony Stark has the power of Tech Genius and wields a Repulsor Ray
+describeHero.call(ironManDetails, 'Tech Genius', 'Repulsor Ray'); //  Tony Stark has the power of Tech Genius and wields a Repulsor Ray
+describeHero.apply(ironManDetails, ['Tech Genius', 'Repulsor Ray']); //  Tony Stark has the power of Tech Genius and wields a Repulsor Ray
+**********
+console.log(name); //  Captain America
+console.log(material); //  Unknown
+console.log(avengers.team?.leader?.shield?.condition); // Excellent
+console.log(avengers.team?.member?.name); //  undefined
+**********
+showAbilities(loki); // Loki has magic: true, shapeshifting: false
+showAbilities(null); // Unknown has magic: false, shapeshifting: false
