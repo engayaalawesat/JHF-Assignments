@@ -1,0 +1,25 @@
+/**
+ * @param {number} n
+ * @return {number}
+ */
+var climbStairs = function(n) {
+    // If n is 1 or less, there is only one way to climb (either 0 steps or 1 step).
+    if (n <= 1) return 1;
+
+    // Initialize two variables to track the number of ways to reach the first and second steps.
+    let first = 1;  // Ways to climb to step 1
+    let second = 1; // Ways to climb to step 2
+
+    // Iterate through step 2 to n, calculating the number of ways to reach each step.
+    for (let i = 2; i <= n; i++) {
+        // The number of ways to reach the current step is the sum of the ways to reach the previous two steps.
+        let temp = first + second;
+        
+        // Update the values: move to the next step.
+        first = second;  // Shift first to the next step
+        second = temp;   // Update second to the current step
+    }
+
+    // Return the total number of ways to reach the nth step.
+    return second;
+};
